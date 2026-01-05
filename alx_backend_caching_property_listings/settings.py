@@ -63,6 +63,8 @@ DATABASES = {
         'PASSWORD': 'property_password',
         'HOST': 'postgres',
         'PORT': '5432',
+        'OPTIONS': {
+            'client_encoding': 'UTF8',
     }
 }
 
